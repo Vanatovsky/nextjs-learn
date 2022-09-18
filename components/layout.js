@@ -4,10 +4,10 @@ import styles from "./layout.module.scss";
 import utilStyles from "../styles/utils.module.scss";
 import Link from "next/link";
 
-const name = "Your name";
+const name = "Taras Vanatovsky";
 export const siteTitle = "Next.js Sample Website";
 
-export default function Layout({ children }) {
+export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
